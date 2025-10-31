@@ -18,10 +18,10 @@ public class CustomList {
      * @param city This is a candidate city to add
      */
     public void add(City city) {
-//        if (cities.contains(city)) {
-//            throw new IllegalArgumentException();
-//        }
-//        cities.add(city);
+        if (cities.contains(city)) {
+            throw new IllegalArgumentException();
+        }
+        cities.add(city);
     }
 
     /**
